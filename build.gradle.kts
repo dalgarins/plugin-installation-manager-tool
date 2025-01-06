@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.jenkins.plugin-management"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -30,14 +30,19 @@ tasks.test {
     useJUnitPlatform()
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "io.jenkins.plugin-management"
-            artifactId = "plugin-management"
-            version = "1.0.1"
+subprojects {
+    apply(plugin = "java")
+    apply(plugin = "maven-publish")
 
-            from(components["java"])
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+                groupId = "io.jenkins.plugin-management"
+                artifactId = "plugin-management"
+                version = "1.0.2"
+
+                from(components["java"])
+            }
         }
     }
 }
