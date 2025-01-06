@@ -1,12 +1,13 @@
 package io.jenkins.tools.pluginmanager.impl;
 
 import hudson.util.VersionNumber;
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
-import org.apache.commons.lang3.StringUtils;
 
 public class Plugin {
     public static final String LATEST = "latest";

@@ -1,6 +1,9 @@
 package io.jenkins.tools.pluginmanager.impl;
 
 import io.jenkins.tools.pluginmanager.config.LogOutput;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.io.Writer;
@@ -10,8 +13,6 @@ import java.nio.file.Path;
 import java.nio.file.attribute.FileTime;
 import java.time.Clock;
 import java.time.Duration;
-import org.json.JSONObject;
-import org.json.JSONTokener;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static java.nio.file.Files.newBufferedWriter;

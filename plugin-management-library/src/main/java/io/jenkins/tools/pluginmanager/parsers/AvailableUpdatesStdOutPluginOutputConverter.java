@@ -2,6 +2,7 @@ package io.jenkins.tools.pluginmanager.parsers;
 
 import hudson.util.VersionNumber;
 import io.jenkins.tools.pluginmanager.impl.Plugin;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

@@ -1,6 +1,7 @@
 package io.jenkins.tools.pluginmanager.parsers;
 
 import io.jenkins.tools.pluginmanager.impl.Plugin;
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.List;

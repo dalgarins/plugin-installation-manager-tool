@@ -9,6 +9,7 @@ import io.jenkins.tools.pluginmanager.impl.Plugin;
 import io.jenkins.tools.pluginmanager.util.PluginInfo;
 import io.jenkins.tools.pluginmanager.util.Plugins;
 import io.jenkins.tools.pluginmanager.util.Source;
+
 import java.util.List;
 import java.util.stream.Collectors;
 

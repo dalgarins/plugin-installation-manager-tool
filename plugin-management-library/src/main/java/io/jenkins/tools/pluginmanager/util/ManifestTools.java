@@ -4,6 +4,8 @@ import edu.umd.cs.findbugs.annotations.CheckForNull;
 import hudson.util.VersionNumber;
 import io.jenkins.tools.pluginmanager.impl.DownloadPluginException;
 import io.jenkins.tools.pluginmanager.impl.Plugin;
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,7 +14,6 @@ import java.util.List;
 import java.util.jar.Attributes;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
-import org.apache.commons.lang3.StringUtils;
 
 public class ManifestTools {
 

@@ -2,6 +2,7 @@ package io.jenkins.tools.pluginmanager.util;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.List;
 
 public class Plugins {

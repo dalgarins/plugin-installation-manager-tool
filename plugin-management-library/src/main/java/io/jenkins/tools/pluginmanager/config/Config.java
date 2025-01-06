@@ -4,6 +4,7 @@ import edu.umd.cs.findbugs.annotations.CheckForNull;
 import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.util.VersionNumber;
 import io.jenkins.tools.pluginmanager.impl.Plugin;
+
 import java.io.File;
 import java.net.URL;
 import java.nio.file.Path;

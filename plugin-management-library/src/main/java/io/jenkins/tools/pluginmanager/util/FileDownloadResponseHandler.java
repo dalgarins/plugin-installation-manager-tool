@@ -1,11 +1,12 @@
 package io.jenkins.tools.pluginmanager.util;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
 import org.apache.commons.io.FileUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.impl.client.AbstractResponseHandler;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class FileDownloadResponseHandler extends AbstractResponseHandler<File> {
 
