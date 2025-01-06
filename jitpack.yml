@@ -1,6 +1,6 @@
 before_install:
-  - sdk install maven 3.8.1
-  - sdk use maven 3.8.1
+  - sdk install maven 3.9.6
+  - sdk use maven 3.9.6
 
 jdk:
   - openjdk17
