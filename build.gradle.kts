@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.jenkins.plugin-management"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -35,7 +35,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "io.jenkins.plugin-management"
             artifactId = "plugin-management"
-            version = "1.0.0"
+            version = "1.0.1"
 
             from(components["java"])
         }
