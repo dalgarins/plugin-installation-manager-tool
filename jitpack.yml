@@ -1,6 +1,3 @@
 before_install:
-  - sdk install gradle 8.12
-  - sdk use gradle 8.12
-
-jdk:
-  - openjdk17
+  - sdk install java 17.0.11-jbr
+  - sdk use java 17.0.11-jbr
